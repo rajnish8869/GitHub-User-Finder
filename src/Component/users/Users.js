@@ -27,7 +27,7 @@ const userStyle = {
     display: 'grid',
     gridTemplateColumns: 'repeat(auto-fit,minmax(20rem, 1fr) )',
     gridGap: '1rem',
-    width: fit-content     
+    width: 'fit-content'
 }
 
 export default Users
