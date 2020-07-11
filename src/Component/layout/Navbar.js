@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 const Navbar = ({ icon, title }) => {
         return (
-        <nav className="navbar">
+        <nav className="navbar" style="background: #000;">
             <h1><i className={icon}/> {title}</h1>
             <ul>
                 <li><Link to='/'>Home</Link></li>
@@ -25,8 +25,5 @@ Navbar.defaultProps = {
 Navbar.propTypes = {
     title: PropTypes.string.isRequired,
     icon: PropTypes.string.isRequired
-}
-Navbar = {
-    background: "#000"
 }
 export default Navbar
