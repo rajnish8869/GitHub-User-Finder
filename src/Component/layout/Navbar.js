@@ -27,6 +27,6 @@ Navbar.propTypes = {
     icon: PropTypes.string.isRequired
 }
 Navbar = {
-    background: black
+    background: "#000"
 }
 export default Navbar
